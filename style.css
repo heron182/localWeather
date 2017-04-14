@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-size: 25px;
+  color: #A4A291;
+  margin: 0;
+  background-color: #2D213B;
+  font-weight: bold;
+}
+
+.wrapper{
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    flex-direction: column;
+    border-left: 10px solid #A4A291;
+}
+
+#p-wtdesc{
+    text-align: center;
+}
+
+p{
+    padding: 20px;
+    flex-basis: 1;
+    margin: 0;
+}
