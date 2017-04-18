@@ -10,12 +10,15 @@ body {
   font-family: 'Quicksand', sans-serif;
   font-family: 'Rubik', sans-serif;
   font-size: 25px;
-  color: #A4A291;
+  color: #2D213B;
   margin: 0;
   background-color: #2D213B;
   font-weight: bold;
 }
 
+a {
+    color: inherit;
+}
 .wrapper{
     width: 800px;
     height: 600px;
@@ -30,15 +33,14 @@ body {
     width: 400px;
     height: 200px;
     flex-direction: column;
-    border-left: 10px solid #A4A291;
-}
-
-#p-wtdesc{
-    text-align: center;
+    border-left: 10px solid white;
+    position: relative;
 }
 
 p{
     padding: 20px;
     flex-basis: 1;
     margin: 0;
+    color: white;
+    text-align: center;
 }
