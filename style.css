@@ -14,10 +14,13 @@ body {
   margin: 0;
   background-color: #2D213B;
   font-weight: bold;
+  text-align: center;
 }
 
 a {
-    color: inherit;
+    color: #FFC857;
+    text-align: center;
+    text-decoration: none;
 }
 .wrapper{
     width: 800px;
